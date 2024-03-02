@@ -55,7 +55,7 @@ app.post('/libros', (req, res) => {
         id: libros.length + 1,
         ...req.body
     }
-    res.status(200).send('Libro creado');
+    res.status(201).send('Libro creado');
 });
 
 //actualizacion de un libro
